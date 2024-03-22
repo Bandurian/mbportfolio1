@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- <link rel="stylesheet" href="assets/css/contact.css"> -->
+
+    <title>Ваш сайт</title>
+
+</head>
+<body>
+
+    <!-- <header>
+        <div class="header-container">
+
+            <div class="header-left">
+                <h1>Portfolio</h1>
+            </div>
+
+
+            <div class="header-right">
+                <a href="about.html"><button class="button">About me</button></a>
+                <a href="contact.html"><button class="button">Contact</button></a>
+            </div>
+        </div>
+    </header> -->
+
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <a href="index.html"><h1 class="port">Portfolio</h1></a>
+            </div>
+            <div class="header-right">
+                <!-- Burger menu icon -->
+                <div class="burger-menu" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
+
+
+                <!-- Hidden menu list -->
+                <div class="menu-list hide">
+                    <a href="about.html"><button class="button">About me</button></a>
+                    <a href="contact.html"><button class="button">Contact</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+   
+    <div class="grid-container">
+        <!-- Ваши ячейки с изображениями -->
+        <!-- Строка 1 -->
+        <div class="cell large Site" data-hashtag="#сайт"><div class="img-overlay"></div><a href="site.html"><img src="assets/img/Site web.png" alt="Картинка 1"></a></div>
+        <div class="cell long Img1" data-hashtag="#лого"><div class="img-overlay"></div><a href="illomi.html"><img src="assets/img/illomi.png" alt="Картинка 2"></a></div>
+        <div class="cell Img2"><div class="img-overlay"></div><a href="plakat1.html"><img src="assets/img/plakat1.png" alt="Картинка 3"></a></div>
+
+
+
+        <!-- Строка 2 -->
+        <!-- Ваши другие ячейки -->
+        
+        <div class="cell Img3"><div class="img-overlay"></div><a href="tealeaf.html"><img src="assets/img/tealeaf.png" alt="Картинка 3"></a></div>
+        <div class="cell demi Logo"><div class="img-overlay"></div><a href="alliesark.html"><img src="assets/img/ark.png" alt="Картинка 3"></a></div>
+
+
+        <!-- Строка 3 -->
+        <!-- Ваши оставшиеся ячейки -->
+        <div class="cell long Img4"><div class="img-overlay"></div><a href="ergos.html"><img src="assets/img/ergos.png" alt="Картинка 3"></a></div>
+        <div class="cell Img5"><div class="img-overlay"></div><a href="rock.html"><img src="assets/img/rock.png" alt="Картинка 3"></a></div>
+        <div class="cell Img6"><div class="img-overlay"></div><a href="pawn.html"><img src="assets/img/pawn2.png" alt="Картинка 3"></a></div>
+
+    </div>
+
+    <a href="assets/files/ваш_файл.pdf" download="имя_файла.pdf" class="download-button" target="_blank"><i class="uil uil-download-alt button__icon"></i>
+        Portfolio
+    </a>
+
+
+ <script>
+    function toggleMenu() {
+    var menu = document.querySelector('.menu-list');
+    menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'block' : 'none';
+}
+ </script>
+
+
+</body>
+</html>
